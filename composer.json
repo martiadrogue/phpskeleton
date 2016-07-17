@@ -47,8 +47,18 @@
         }
     },
     "scripts": {
-        "test": "phpunit",
-        "format": "phpcbf --standard=psr2 src/"
+        "post-create-project-cmd": [
+            "composer update"
+        ],
+        "test": [
+            "phpmd src text phpmd.xml",
+            "phpcs src tests",
+            "phpunit"
+        ],
+        "format": [
+            "php-cs-fixer fix --level=psr2",
+            "phpcbf --standard=psr2 src/"
+        ]
     },
     "extra": {
         "branch-alias": {
