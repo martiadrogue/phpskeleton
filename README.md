@@ -38,8 +38,19 @@ recently.
 
 ## Testing
 
+`composer test` run phpcs, phpmd and phpunit. Run phpunit for unit test only.
+
 ``` bash
 composer test
+```
+
+## Code Smell Fix
+
+`composer format` run php-cs-fixer and phpcbf to fix up the PHP code to follow
+the coding standards.
+
+``` bash
+composer format
 ```
 
 ## Contributing
