@@ -47,9 +47,6 @@
         }
     },
     "scripts": {
-        "post-create-project-cmd": [
-            "composer update"
-        ],
         "test": [
             "phpmd src text phpmd.xml",
             "phpcs src tests",
