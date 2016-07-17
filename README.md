@@ -18,10 +18,18 @@ Inspired by phpleague/skeleton, peterkokot/php-skeleton and koriym/PHP.Skeleton.
 
 ## Install
 
-Via Composer
+Via Composer, update your composer.json to use martiadrogue/:package_name
 
-``` bash
-composer require martiadrogue/:package_name
+```json
+"repositories": [
+    {
+        "type": "git",
+        "url": "https://github.com/martiadrogue/:package_name.git"
+    }
+],
+"require": {
+    "martiadrogue/:package_name": "dev-devel"
+},
 ```
 
 ## Usage
