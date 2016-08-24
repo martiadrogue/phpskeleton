@@ -32,6 +32,8 @@ Via Composer, update your composer.json to use martiadrogue/:package_name
 },
 ```
 
+Old school, grab files from [dist directory][link-download]
+
 ## Usage
 
 ``` php
@@ -93,3 +95,4 @@ information.
 [link-downloads]: https://packagist.org/packages/martiadrogue/:package_name
 [link-author]: https://github.com/martiadrogue
 [link-contributors]: ../../contributors
+[link-download]: https://github.com/nosir/:package_name/archive/master.zip
