@@ -27,12 +27,23 @@ Via Composer, update your composer.json to use martiadrogue/:package_name
         "url": "https://github.com/martiadrogue/:package_name.git"
     }
 ],
+```
+
+Then you must add martiadrogue/:package_name in require.
+
+```json
 "require": {
     "martiadrogue/:package_name": "dev-devel"
 },
 ```
 
-Old school, grab files from [dist directory][link-download]
+Or invoke
+
+```shell
+composer require martiadrogue/sqlbuilder:@dev
+```
+
+Old school, forget all and grab files from [dist directory][link-download]
 
 ## Usage
 
