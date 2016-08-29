@@ -95,4 +95,4 @@ information.
 [link-downloads]: https://packagist.org/packages/martiadrogue/:package_name
 [link-author]: https://github.com/martiadrogue
 [link-contributors]: ../../contributors
-[link-download]: https://github.com/nosir/:package_name/archive/master.zip
+[link-download]: https://github.com/martiadrogue/:package_name/archive/master.zip
