@@ -40,7 +40,7 @@ Then you must add martiadrogue/:package_name in require.
 Or invoke
 
 ```shell
-composer require martiadrogue/sqlbuilder:@dev
+composer require martiadrogue/:package_name:@dev
 ```
 
 Old school, forget all and grab files from [dist directory][link-download]
