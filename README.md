@@ -43,7 +43,7 @@ Or invoke
 composer require martiadrogue/:package_name:@dev
 ```
 
-Old school, forget all and grab files from [dist directory][link-download]
+Old school, forget all and grab files from [this directory][link-download]
 
 ## Usage
 
